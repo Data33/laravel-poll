@@ -68,7 +68,7 @@ Let's assume your App\User model uses the Voter trait.
 
 ### Checking voting status for a voter ###
 ```php
-    if (auth()->user().>hasVotedInPoll($poll)) {
+    if (auth()->user()->hasVotedInPoll($poll)) {
         echo 'User voted in poll';
     }
     
