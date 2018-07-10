@@ -10,7 +10,7 @@ $results = $poll->results($voter);
 @foreach ($results->options as $option)
     <div class='result-option'>
         <strong>{{ $option->text }}</strong><span class='pull-right'>{{ $option->percentage }}% ({{ $option->votes }})</span>
-        @if ($voter->hasVotedForOption($poll, $option->model))
+        @if ($voter !== null && $voter->hasVotedForOption($poll, $option->model))
             <i>You voted for this</i>
         @endif
         <div class='progress'>
