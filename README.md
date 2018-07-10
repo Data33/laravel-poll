@@ -28,7 +28,7 @@ After running the above command, you should see the following changes:
 * A config file should be available at `config/polls.php`
 * A few new migrations should be placed in your `database/migrations` folder
 * A few new views should be placed in the folder `resources/views/vendor/data33/laravel-poll`
-* 
+
 If you wish to extend this package, you can specify your own classes to be used as models in the ` config/polls.php` file. Make sure your models extend the existing ones.
 
 ## Usage ##
