@@ -1,0 +1,32 @@
+{
+    "name": "data33/laravel-poll",
+    "description": "A Laravel 5 package for creating, managing and interacting with polls",
+    "type": "library",
+    "keywords": ["polls", "laravel"],
+    "homepage": "https://github.com/Data33/laravel-poll",
+    "require": {
+        "php": ">=7.1",
+        "laravel/framework": "^5.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mattias Ottosson",
+            "email": "datae33@gmail.com",
+            "homepage": "https://github.com/Data33"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Data33\\LaravelPoll\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Data33\\LaravelPoll\\PollServiceProvider"
+            ]
+        }
+    }
+}
