@@ -7,14 +7,14 @@ A package for managing polls in Laravel.
 
 Open your `composer.json` file and add the following to the `require` key:
 
-	"data33/laravel-poll": "1.0.*"
+	"data33/laravel-poll": "^1.0.1"
 
 ---
 	
 After adding the key, run composer update from the command line to install the package 
 
 ```bash
-composer update
+composer update data33/laravel-poll
 ```
 	
 ## Configuration ##
